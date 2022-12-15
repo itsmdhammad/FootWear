@@ -1,0 +1,33 @@
+header{
+    background-image: url(/img/developers.jpg);
+    background-size: cover;
+    color: rgb(255, 251, 0);
+    height: 200px;
+    width: 100%;
+    padding-top:5% ;
+}
+
+header p{
+    margin: 0%;
+    padding: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+
+section img{
+    height: 250px;
+    width: 250px;
+}
+
+section div{
+    display: flex;
+    padding: 2%;
+}
+section pre{
+    line-height: 0%;
+
+}
+
+section #Abd, #Hammad{
+    margin-left: 15%;
+}

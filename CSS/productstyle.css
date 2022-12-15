@@ -1,0 +1,160 @@
+.product{
+    display: flex;
+    margin:1%;
+    margin-top: 0%;
+    margin-left: 12%;
+    padding: 0%;
+    padding-top: 8%;
+    position: relative;
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.product .containertabgallery img{
+height: 75vh;
+width: 92vh;
+}
+
+.tabgallery img{
+    height: 14vh;
+    width: 17vh;
+    margin-left: 1%;
+    margin-top: 2%;
+
+}
+
+.tabgallery img:hover{
+    cursor: pointer;
+    height: 14vh;
+    width: 17vh;
+
+    opacity: 0.5;
+}
+
+.form{
+    padding: 0%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.form pre{
+    font-size: 15px;
+    line-height: 25%;
+}
+
+form input{
+margin-top: 3%;
+margin-bottom: 3%;
+}
+
+.form form input[type="text"]{   
+    font-size: 17px;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid rgb(170, 169, 169);
+    outline: none;
+}
+
+.form form span{
+    cursor: pointer;
+    font-weight: bold;
+    font-size:17px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+.form button{
+    margin: 20px 0px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 3% 15%;
+}
+
+form input[type="radio"]{
+    width: 18px;
+    height: 18px;
+}
+
+form #sizechart{
+    cursor: pointer;
+    height: max-content;
+    width: 30%;
+}
+
+form #sizechart:hover{
+opacity: 0.5;
+}
+
+form button:hover{
+cursor: pointer;
+background-color: white;
+color: black;
+}
+
+#productdescription{
+    width: 88%;
+    margin-left: 12%;
+}
+
+details{
+    color: black;
+    border: 1px solid black;
+    padding: 1% 2%;
+    margin-bottom: 1%;
+    background-color: rgb(255, 255, 255);
+    width: 83%;
+}
+
+details ul{
+    margin: 0%;
+    padding: 1% 1.5%;
+}
+
+
+details ul li pre{
+    font-size: 16px; 
+    line-height:30px; 
+    margin:0%;
+}
+
+summary{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+#confirm{
+    position: fixed;
+    display: none;
+    height:605px; 
+    width:max-content; 
+    position:absolute; 
+    z-index: 1; 
+    margin-left: 25%; 
+    margin-top: 1%;
+    background-color: rgb(228, 228, 228);
+}
+
+#closebtn{
+    opacity: 1;
+    width:90%; 
+    margin-top: 1%;
+    margin-left: 5%; 
+    font-size: 22px; 
+    color: white; 
+    background-color: rgb(61, 61, 61); 
+    padding: 1%;
+    border: none;
+    outline: none;
+}
+
+#closebtn:hover{
+    opacity: 0.8;
+    background-color: rgb(131, 131, 131);
+}

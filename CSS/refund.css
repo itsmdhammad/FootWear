@@ -1,0 +1,91 @@
+section{
+    padding-bottom: 6%;
+    margin: 0%;
+    background-image: url(/img/refund1.jpg);
+    background-size: cover;
+}
+
+section .heading{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+section a{
+    color: blue;
+}
+
+section .policy{
+    border-radius: 1%;
+    opacity:0.9;
+    background-color: whitesmoke;
+    z-index: index 1; ;
+    position:relative;
+    width: max-content;
+    height: max-content;
+    color:black;
+    margin-left: 17%;
+    padding: 2%;
+
+}
+
+section .formdiv{
+    padding: 2%;
+    width: 55%;
+    opacity: 0.9;
+    border-radius: 1%;
+    margin-left: 22.5%;
+    background-color: whitesmoke;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+input[type="text"], input[type="number"], input[type="date"], textarea{
+margin-top: 1%;
+margin-bottom: 1%;
+width: 97%;    
+font-size: 20px;
+padding: 1%;
+outline: none;
+border: none;
+background-color: rgb(231, 228, 228);
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus, textarea:focus{
+    background-color: rgb(202, 202, 202);
+}
+textarea{
+    resize: vertical;
+}
+
+#articlenumber{
+    width: 75%;
+}
+
+#articlequantity{
+    width: 20%;
+}
+
+button{
+    margin-top: 1%;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 1%;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
